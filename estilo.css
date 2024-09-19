@@ -1,0 +1,158 @@
+/* Estructura general de la página */
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #dbd2d2;
+}
+
+/* Estilos del header con logo y barra de búsqueda */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #e6e6e6;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 60px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 20px;
+    color: #333;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-top-left-radius: 10px;
+    border-right-color: white;
+    border-right: none;
+}
+
+.search-bar button {
+    padding: 8px;
+    background-color: #ffffff;
+    color: #ccc;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-bottom-right-radius: 10px;
+    border-left: white;
+}
+
+/* Estilos del banner principal */
+.hero {
+    position: relative;
+    background: url('picture-la-fortuna-montana-de-fuego-hotel-29.jpg') no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    color: white;
+}
+
+.hero .hero-text {
+    max-width: 50%;
+}
+
+.hero h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+.text-m{
+    width: 150px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+
+}
+.side-images {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.side-images img {
+    width: 150px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+/* Estilos de la sección de contacto */
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.contact-info div {
+    width: 30%;
+}
+
+.contact-info h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.address p, .terms ul {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.location-map img {
+    width: 60%;
+    border-radius: 2px;
+    margin-left: 20%;
+    
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    
+  
+  }
+  
+  .footer-container {
+    display: flex;
+    height: auto;
+    padding-right: 100px;
+    
+
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin: 0;
+  }
+  .footer-column h3 {
+    margin-bottom: 0px;
+    text-align: center;
+
+  }
+
+.social-icons img {
+    width: 10px;
+    margin: 0 10px;
+}
